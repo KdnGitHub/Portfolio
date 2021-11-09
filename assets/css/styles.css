@@ -212,7 +212,7 @@ img{
 .home__social-icon{
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  font-size: 3rem;
   color: var(--second-color);
 }
 .home__social-icon:hover{
@@ -223,6 +223,26 @@ img{
   right: 0;
   bottom: 0;
   width: 295px;
+}
+
+.circle1,
+.circle2  {
+  background: white;
+  background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.1) );
+  height: 6rem;
+  width: 6rem;
+  position: absolute;
+  border-radius: 50%;
+  display: block;
+}
+
+.circle1 {
+  top: 30%;
+  right: 9%;
+}
+.circle2 {
+  bottom: 12%;
+  left: 64%;
 }
 
 /*BUTTONS*/
@@ -248,6 +268,7 @@ img{
 }
 .about__img{
   justify-self: center;
+  border-radius: 50%;
 }
 .about__img img{
   width: 200px;
@@ -298,16 +319,16 @@ img{
   width: 80%;
 }
 .skills__css{
-  width: 70%;
+  width: 75%;
 }
 .skills__js{
-  width: 50%;
+  width: 60%;
 }
 .skills__java{
-  width: 65%;
+  width: 70%;
 }
 .skills__python{
-  width: 55%;
+  width: 65%;
 }
 .skills__img{
   border-radius: .5rem;
@@ -355,15 +376,15 @@ translateY(-50%)
 }
 
 h1{
-  font-size: 1.5rem;
+  font-size: 1.0rem;
 }
 
 h2{
-  font-size: 1rem;
+  font-size: 0.825rem;
 }
 
 h3{
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 
